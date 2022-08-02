@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #e9e9e9;
+  transition: 250ms background-color ease-in-out;
+}
+
+.color-text {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  padding: 5rem;
+}
+
+.main-nav {
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+
+.main-nav-active {
+  width: fit-content;
+  height: fit-content;
+  padding: 0 10px 10px 0;
+  border-radius: 0 0 8px 0;
+  background-color: #505050;
+  transition: 250ms background-color ease-in-out;
+}
+
+.burger-nav {
+  cursor: pointer;
+  width: fit-content;
+  padding: 20px 20px 0 20px;
+  transform: scale(200%);
+  color: #505050;
+  transition: 250ms color ease;
+}
+
+.color-toggle-nav {
+  margin-top: 15px;
+  width: fit-content;
+  padding: 7px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 500ms opacity ease-in-out;
+}
+
+.color-toggle-nav-show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.color-toggle-nav li {
+  display: flex;
+  cursor: pointer;
+}
+
+.color-toggle-nav p {
+  font-size: 1.3rem;
+  color: white;
+}
+
+.gray div {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  transform: translateY(25%);
+  background-color: #e9e9e9;
+  margin-right: 10px;
+}
+
+/* .gray p::before {
+  content: " ";
+  height: 15px;
+  width: 15px;
+  padding: 1px;
+  border-radius: 50%;
+  background-color: #e9e9e9;
+  margin-right: 10px;
+}
+ */
+.red div {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  transform: translateY(25%);
+  background-color: #f86363;
+  margin-right: 10px;
+}
+
+.blue div {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  transform: translateY(25%);
+  background-color: #4f9ef8;
+  margin-right: 10px;
+}
+
+.green div {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  transform: translateY(25%);
+  background-color: #68b968;
+  margin-right: 10px;
+}
+
+.yellow div {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  transform: translateY(25%);
+  background-color: #fdfd68;
+  margin-right: 10px;
+}
+
+.purple div {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  transform: translateY(25%);
+  background-color: #b14db1;
+  margin-right: 10px;
+}
