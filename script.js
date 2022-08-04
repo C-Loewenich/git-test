@@ -9,6 +9,8 @@ const colorsToReset = document.querySelectorAll(".color-toggle-nav ul li div");
 let currentColor = window.getComputedStyle(bodyElement).backgroundColor;
 let checkColorToggleNavOpen = false;
 
+// Here i am just making some changes in toder to see and test how git works
+
 // Setting keybord shortcuts
 document.addEventListener("keyup", (pressedKey) => {
   if (pressedKey.key === "c") {
